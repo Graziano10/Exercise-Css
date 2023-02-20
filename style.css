@@ -1,91 +1,46 @@
-
-
-.grid-container {
-    width: 350px;
-    height: 350px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    text-align: center;
-    padding: 70px 70px;
+body {
+  /* default = width: 60em;*/
+  margin: 0 auto;
 }
 
-.grid-items {
-    border: solid 1px gray;
-    background-color: rgb(243, 243, 243);
-    color: rgb(0, 0, 0);
-    padding-top: 16px;
-    font-size: 20px;
-    font-family: Arial;
-}
-
-.grid-items:nth-child(1) {
-    grid-column: 1 / 5;
-    background-color: rgb(65, 63, 70);
-    font-size: 30px;
-    padding-left: 290px;
-    padding-bottom: 15px;
-    color: rgb(219, 219, 219);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-left: none ;
-    border-top: none;
-    border-right: none;
-}
-
-.grid-items:nth-child(9) {
-    grid-column: 5 / 4 ;
-    grid-row: 3 / 7;
-    background-color: rgb(255, 37, 37);
-    padding-top: 100px;
-    border-bottom-right-radius: 10px;
-    border-right: none;
-    box-shadow: inset 1px -2px 0px rgb(255, 37, 37);
+section {
+  padding: 2em;
+  margin: 1em;
 
 }
 
-.grid-items:nth-child(16) {
-    border-bottom-left-radius: 10px;
-    border-bottom: none;
-    border-left: none;
-    box-shadow: inset 1px -2px 0px rgb(228, 228, 228);
+#green {
+  background-color: #8ffda7;
+  grid-area: header;
 }
 
-
-.operator{
-    background-color: rgb(200, 200, 200);
+#orange {
+  background-color: #ffc788;
+  grid-area: footer;
 }
 
-.grid-items:nth-child(2){
-    border-left: none;
-    box-shadow: inset 1px -2px 0px rgb(200, 200, 200);
+#yellow {
+  background-color: #ffff92;
+  grid-area: main01;
 }
 
-.grid-items:nth-child(5){
-    border-right: none; 
-    box-shadow: inset 1px -2px 0px rgb(200, 200, 200);
+#red {
+  background-color: #ff919c;
+  grid-area: main02;
 }
 
-.grid-items:nth-child(6){
-    border-left: none;
-    box-shadow: inset 1px -2px 0px rgb(228, 228, 228);
+#blue {
+  background-color: #98d2ff;
+  grid-area: sidebar;
 }
 
-.grid-items:nth-child(10){
-    border-left: none;
-    box-shadow: inset 1px -2px 0px rgb(228, 228, 228);
+ul {
+  padding: 0;
 }
 
-.grid-items:nth-child(13){
-    border-left: none;
-    box-shadow: inset 1px -2px 0px rgb(228, 228, 228);
-}
-
-.grid-items:nth-child(17){
-    border-bottom: none;
-    box-shadow: inset 1px -2px 0px rgb(228, 228, 228);
-}
-.grid-items:nth-child(18){
-    border-bottom: none;
-    box-shadow: inset 1px -2px 0px rgb(228, 228, 228);
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
 }

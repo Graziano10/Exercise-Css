@@ -1,0 +1,11 @@
+
+
+body {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header header"
+    "main01 main01 main02 main02 sidebar"
+    "main01 main01 main02 main02 sidebar"
+    "footer footer footer footer sidebar";
+}
