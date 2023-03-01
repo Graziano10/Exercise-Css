@@ -1,0 +1,35 @@
+
+
+/* Media Query*/
+
+@media screen and (max-width: 915px) {
+    .card {
+        flex-wrap: wrap;
+        width: 100%;
+    }  
+}
+
+/* -- tablet view --  */ 
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-wrap: wrap;
+        width: 100%;
+    }  
+}
+
+/* -- mobile view  -- */
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 100%;
+        flex-wrap: wrap;
+    }     
+}
+
+@media screen and (max-width: 300px) {
+    .card {
+        width: 100%;
+        flex-wrap: wrap;
+    }     
+}
